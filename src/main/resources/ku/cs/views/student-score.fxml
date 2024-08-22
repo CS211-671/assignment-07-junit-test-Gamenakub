@@ -6,8 +6,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ku.cs.controllers.StudentScoreController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ku.cs.controllers.StudentScoreController">
    <children>
       <Label layoutX="75.0" layoutY="66.0" text="Student Info">
          <font>
@@ -49,7 +48,7 @@
             <Font size="24.0" />
          </font>
       </Label>
-      <TextField fx:id="giveScoreTextField" layoutX="235.0" layoutY="251.0" prefHeight="45.0" prefWidth="123.0">
+      <TextField fx:id="scoreTextField" layoutX="235.0" layoutY="251.0" prefHeight="45.0" prefWidth="123.0">
          <font>
             <Font size="24.0" />
          </font>
